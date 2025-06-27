@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Certificates</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #f1f1f1;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+      line-height: 1.6;
+    }
+
+    h1 {
+      color: #ffd700;
+      text-align: center;
+      margin-bottom: 40px;
+      cursor: default;
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    h1:hover {
+      color: #ffea00;
+      transform: scale(1.05);
+    }
+
+    .certificates {
+      max-width: 800px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 25px;
+    }
+
+    .certificate {
+      background-color: #1a1a1a;
+      border-left: 5px solid #ffd700;
+      border-radius: 8px;
+      padding: 20px;
+      box-sizing: border-box;
+      transition: background-color 0.3s ease;
+      cursor: default;
+    }
+
+    .certificate:hover {
+      background-color: #333333;
+    }
+
+    .certificate h2 {
+      color: #ffd700;
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+    }
+
+    .certificate p {
+      margin: 0;
+      color: #ddd;
+      font-size: 1rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .certificates {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Certificates</h1>
+
+  <div class="certificates">
+    <div class="certificate">
+      <h2>Basics of HTML</h2>
+      <p>Certified completion of an introductory course on HTML.</p>
+      <p><strong>Issued by:</strong> Great Learning</p>
+      
+    </div>
+
+    <div class="certificate">
+      <h2>JavaScript for Beginners</h2>
+      <p>Completed beginner-level JavaScript course with hands-on projects.</p>
+      <p><strong>Issued by:</strong> Scalar</p>
+      
+    </div>
+
+    <div class="certificate">
+      <h2>Introduction to Front End Development</h2>
+      <p>Completed introduction to front end development course.</p>
+      <p><strong>Issued by:</strong> Simplilearn</p>
+      <p><strong>Date:</strong> 29 Oct</p>
+    </div>
+
+    <div class="certificate">
+      <h2>SQL Fundamentals</h2>
+      <p>Completed SQL fundamentals course covering database queries and management.</p>
+      <p><strong>Issued by:</strong> IBM</p>
+      
+    </div>
+  </div>
+
+</body>
+</html>

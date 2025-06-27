@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Athmakuri Tejaswini Portfolio</title>
+  <style>
+    /* Global Styles */
+    body {
+      margin: 0;
+      padding: 0 20px 40px;
+      background-color: #000;
+      color: #f1f1f1;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    h1, h2 {
+      color: #ffd700;
+      margin-bottom: 15px;
+      cursor: default;
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    h1:hover, h2:hover {
+      color: #ffea00;
+      transform: scale(1.05);
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      background-color: #1a1a1a;
+      border-left: 5px solid #ffd700;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+
+    p, li {
+      font-size: 1rem;
+      color: #ddd;
+    }
+
+    strong {
+      color: #ffd700;
+    }
+
+    /* Navigation */
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 40px 0 50px;
+    }
+
+    nav a {
+      color: #ffd700;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffea00;
+    }
+
+    /* Services Section */
+    .services {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .service {
+      background-color: #000;
+      border: 2px solid #ffd700;
+      border-radius: 10px;
+      padding: 20px;
+      flex: 1 1 300px;
+      box-sizing: border-box;
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+      cursor: default;
+    }
+
+    .service:hover {
+      background-color: #333333;
+      border-color: #ffea00;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .services {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#services">Services</a>
+    </nav>
+
+    <section id="about">
+      <h1>About Me</h1>
+      <p>My name is <strong>Athmakuri Tejaswini</strong>. I was born and brought up in Narasaraopet and am presently based there.</p>
+      <p>I completed a full-time B.Tech in Information Technology from Tirumala Engineering College in June 2023 with a CGPA of 7.3.</p>
+      <p>I am passionate about hard work, learning current industry trends, and I’m eager to grow professionally. Skilled in DBMS, Java, C, HTML, and more. I am fluent in Telugu and enjoy learning from my past experiences.</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <p><strong>B.Tech in Information Technology</strong><br>
+         Tirumala Engineering College, June 2023<br>
+         CGPA: 7.3/10
+      </p>
+      <p><strong>12th Grade (Intermediate)</strong><br>
+         Andhra Pradesh Senior Secondary Examination, 2019<br>
+         Score: 90% (English Medium)
+      </p>
+      <p><strong>10th Grade (SSC)</strong><br>
+         Andhra Pradesh Board<br>
+         Score: 85%
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project" style="margin-bottom: 20px;">
+        <h3 style="color:#ffd700; margin-top:0;">Analysis of Various Machine Learning Algorithms for Prediction of Chronic Kidney Disease</h3>
+        <p>This project focused on evaluating different <strong>Machine Learning algorithms</strong> to predict the presence of <strong>Chronic Kidney Disease (CKD)</strong> using real-world data.</p>
+        <p><strong>Duration:</strong> 3 Months<br>
+           <strong>Technologies:</strong> Python, Pandas, Scikit-learn, Jupyter Notebook<br>
+           <strong>Outcome:</strong> Identified the most accurate algorithm for CKD prediction.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3 style="color:#ffd700; margin-top:0;">Building a Portfolio Website using HTML and CSS</h3>
+        <p>Created a responsive personal portfolio website showcasing skills, education, and projects with modern design and user-friendly navigation.</p>
+        <p><strong>Duration:</strong> 1 Month<br>
+           <strong>Technologies:</strong> HTML, CSS<br>
+           <strong>Outcome:</strong> A professional and fully responsive portfolio website.
+        </p>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>My Services</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Web Design</h3>
+          <p>Creating visually appealing, modern, and responsive website designs tailored to your brand and user experience.</p>
+        </div>
+        <div class="service">
+          <h3>Web Development</h3>
+          <p>Developing efficient and clean websites using HTML, CSS, and JavaScript to ensure fast, reliable web applications.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+</body>
+</html>

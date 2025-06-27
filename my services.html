@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Services</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #f1f1f1;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    h1 {
+      color: #ffd700;
+      text-align: center;
+      margin-bottom: 40px;
+      cursor: pointer;
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    h1:hover {
+      color: #ffea00;
+      transform: scale(1.1);
+    }
+
+    .services {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .service {
+      background-color: #1a1a1a;
+      border-left: 5px solid #ffd700;
+      border-radius: 8px;
+      padding: 20px;
+      flex: 1 1 300px;
+      box-sizing: border-box;
+      transition: background-color 0.3s ease;
+      cursor: default;
+    }
+
+    .service:hover {
+      background-color: #333333;
+    }
+
+    .service h2 {
+      color: #ffd700;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+
+    .service p {
+      font-size: 1rem;
+      color: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Services</h1>
+
+  <div class="services">
+    <div class="service">
+      <h2>Web Design</h2>
+      <p>Creating visually stunning and user-friendly website designs tailored to your brand identity. I focus on responsive layouts, modern aesthetics, and seamless user experience.</p>
+    </div>
+
+    <div class="service">
+      <h2>Web Development</h2>
+      <p>Building robust and efficient websites using HTML, CSS, and JavaScript. Whether it's static sites or dynamic web applications, I ensure clean code and fast performance.</p>
+    </div>
+  </div>
+
+</body>
+</html>
